@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
+import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import { UserAuth } from '../context/AuthContext';
 import { db } from '../firebase';
 import { arrayUnion, doc, updateDoc } from 'firebase/firestore';
@@ -51,9 +52,9 @@ const Movie = ({ item }) => {
         </p>
         <p onClick={saveShow}>
           {like ? (
-            <FaHeart className='absolute top-4 left-4 text-gray-300' />
+            <AiOutlineMinus className='absolute top-4 left-4 text-gray-300 text-2xl' />
           ) : (
-            <FaRegHeart className='absolute top-4 left-4 text-gray-300' />
+            <AiOutlinePlus className='absolute top-4 left-4 text-gray-300 text-2xl' />
           )}
         </p>
       </div>
