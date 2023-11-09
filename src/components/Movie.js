@@ -25,7 +25,7 @@ const Movie = ({ item }) => {
         }),
       });
     } else {
-      alert('Please log in to save a movie');
+      alert('Login to save Movies and TvShows.');
     }
   };
 
