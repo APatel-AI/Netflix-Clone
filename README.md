@@ -1,6 +1,6 @@
 # Netflix Clone
 
-## Firebase, Tailwind, React, JavaScript
+## Firebase, Tailwind, React, JavaScript, HTML, CSS
 
 
 ### Preview
